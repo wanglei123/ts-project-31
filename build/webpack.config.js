@@ -5,6 +5,7 @@ module.exports = {
   output: {
     filename: 'app.js'
   },
+  mode: 'development',
   resolve: {
     // 模块导入扩展名处理,以下文件可以直接导入
     extensions: ['.js', '.ts', 'tsx']
